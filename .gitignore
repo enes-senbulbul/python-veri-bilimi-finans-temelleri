@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Data (genellikle repoya konmaz, büyük/kişisel olabilir)
+*.csv
+*.parquet
+*.db
+*.sqlite3

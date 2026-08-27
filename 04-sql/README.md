@@ -1,0 +1,41 @@
+# SQL & İLİŞKİSEL VERİTABANLARI (PostgreSQL)
+
+## İlerleme
+
+- [ ] BÖLÜM 1: İlişkisel Model Temelleri
+  - 1.1 Temel Kavramlar
+    - Tablo, satır, sütun ve veri tipleri
+    - Birincil anahtar (primary key) ve tekillik kısıtları
+    - Yabancı anahtar (foreign key) ve ilişkiler (1-1, 1-N, N-N)
+  - 1.2 Normalizasyon
+    - Normal formlar (1NF-3NF) ve normalizasyonun amacı
+    - Denormalizasyon kararları ve performans ödünleşimi
+- [ ] BÖLÜM 2: Sorgulama
+  - 2.1 Temel Sorgular
+    - SELECT, WHERE, ORDER BY, LIMIT
+    - JOIN türleri (INNER/LEFT/RIGHT/FULL)
+    - GROUP BY, HAVING ve toplama fonksiyonları
+    - Alt sorgular (subquery) ve CTE (WITH ifadesi)
+  - 2.2 İleri Sorgulama
+    - Pencere fonksiyonları (window functions) — özellikle zaman serisi analizinde
+    - Küme işlemleri (UNION/INTERSECT/EXCEPT)
+- [ ] BÖLÜM 3: Veri Tanımlama ve Değiştirme
+  - 3.1 DDL/DML
+    - CREATE/ALTER/DROP TABLE
+    - INSERT/UPDATE/DELETE ve UPSERT (ON CONFLICT)
+    - Transaction kavramı, ACID özellikleri ve izolasyon seviyeleri
+- [ ] BÖLÜM 4: Performans ve İndeksleme
+  - 4.1 İndeksleme
+    - B-tree indeks mantığı ve ne zaman indeks kullanılır
+    - Sorgu planı okuma (EXPLAIN ANALYZE)
+  - 4.2 Ölçeklenebilirlik
+    - Tablo bölümlendirme (partitioning) — özellikle zaman bazlı
+    - Bağlantı havuzu (connection pooling) kavramı
+- [ ] BÖLÜM 5: Zamansal (Temporal) Veri Modelleme
+  - 5.1 Temel Zamansal Kavramlar
+    - Geçerlilik zamanı (valid time) vs kayıt zamanı (transaction time) ayrımı
+    - Çift-zamanlı (bitemporal) veri modeli kavramı
+    - Aralık tipleri (range types) ve dışlama kısıtları (exclusion constraints)
+  - 5.2 Uygulama Araçları
+    - SQLAlchemy ile Python-veritabanı entegrasyonu (ORM temelleri)
+    - Veritabanı migrasyon araçları (Alembic)

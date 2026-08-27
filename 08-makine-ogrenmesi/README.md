@@ -1,0 +1,41 @@
+# Makine Öğrenmesi Temelleri
+
+## İlerleme
+
+- [ ] BÖLÜM 1: Denetimli Öğrenme Temelleri
+  - 1.1 Temel Kavramlar
+    - 1.1.1 Eğitim/test ayrımı ve genelleme (generalization) kavramı
+    - 1.1.2 Aşırı öğrenme (overfitting) ve yetersiz öğrenme (underfitting)
+    - 1.1.3 Kayıp fonksiyonları (loss functions) kavramı
+  - 1.2 Doğrusal Modeller
+    - 1.2.1 Doğrusal regresyon (ML perspektifinden) ve regülarizasyon (Ridge/Lasso)
+    - 1.2.2 Lojistik regresyon ve sınıflandırma temelleri
+- [ ] BÖLÜM 2: Model Değerlendirme
+  - 2.1 Doğrulama Stratejileri
+    - 2.1.1 K-katlamalı çapraz doğrulama (k-fold cross-validation)
+    - 2.1.2 Sınıflandırma metrikleri (precision, recall, F1, ROC-AUC)
+    - 2.1.3 Regresyon metrikleri (RMSE, MAE, MAPE)
+  - 2.2 Hiperparametre Optimizasyonu
+    - 2.2.1 Grid search / random search
+    - 2.2.2 Bayesian hiperparametre optimizasyonu
+- [ ] BÖLÜM 3: Ağaç Tabanlı ve Topluluk Modelleri
+  - 3.1 Ağaç Modelleri
+    - 3.1.1 Karar ağaçları (decision trees) mantığı
+    - 3.1.2 Random forest ve bagging
+    - 3.1.3 Gradient boosting (XGBoost/LightGBM)
+  - 3.2 Özellik Mühendisliği
+    - 3.2.1 Özellik ölçeklendirme ve kategorik değişken kodlama
+    - 3.2.2 Özellik önemi (feature importance) ve model yorumlanabilirliği (SHAP)
+- [ ] BÖLÜM 4: Denetimsiz Öğrenme ve Boyut İndirgeme
+  - 4.1 4.1.1 K-means kümeleme ve kümeleme değerlendirme metrikleri [T2] 🔶 OPSİYONEL
+  - 4.2 4.2.1 Temel bileşenler analizi (PCA) [T2]
+- [ ] BÖLÜM 5: Zaman Serisi için Makine Öğrenmesi
+  - 5.1 Zamansal Özellik Mühendisliği
+    - 5.1.1 Gecikmeli (lagged) özellikler ve pencere istatistikleri oluşturma
+    - 5.1.2 Zaman serisine özgü çapraz doğrulama (walk-forward / expanding window)
+  - 5.2 5.2.1 Temel derin öğrenme kavramları (LSTM/basit sinir ağları) [T3] 🔶 OPSİYONEL
+- [ ] BÖLÜM 6: ⚠️ KRİTİK TUZAKLAR — ML Araştırmasında
+  - 6.1 6.1.1 Veri sızıntısı (data leakage) — özellikle zaman serisinde geleceğin bilgisinin sızması [T3]
+    - 6.1.2 Rastgele k-fold'un zaman serisinde geçersizliği
+    - 6.1.3 Aşırı parametre arama nedeniyle çoklu test / data snooping riski
+    - 6.1.4 Model karmaşıklığı ile yorumlanabilirlik ödünleşimi

@@ -1,0 +1,43 @@
+# Pandas & NumPy ile Veri Analizi
+
+## İlerleme
+
+- [ ] BÖLÜM 1: NumPy Temelleri
+  - 1.1 Diziler (Arrays)
+    - 1.1.1 ndarray oluşturma, şekil (shape) ve veri tipi (dtype)
+    - 1.1.2 Dizi indeksleme, dilimleme ve boolean maskeleme
+    - 1.1.3 Yayınlama (broadcasting) kuralları
+  - 1.2 Vektörize İşlemler
+    - 1.2.1 Eleman-bazlı işlemler ve evrensel fonksiyonlar (ufunc)
+    - 1.2.2 Toplama/istatistik fonksiyonları (sum, mean, std) ve eksen (axis) kavramı
+    - 1.2.3 Doğrusal cebir temel işlemleri (matris çarpımı, transpoze)
+- [ ] BÖLÜM 2: Pandas Veri Yapıları
+  - 2.1 Series ve DataFrame
+    - 2.1.1 Series oluşturma ve indeks kavramı
+    - 2.1.2 DataFrame oluşturma, sütun/satır seçimi (loc/iloc)
+    - 2.1.3 Veri tipi dönüşümleri ve eksik veri (NaN) temsili
+  - 2.2 Veri Yükleme ve Kaydetme
+    - 2.2.1 CSV/JSON/SQL'den veri okuma ve yazma
+    - 2.2.2 Parquet gibi sütun-bazlı formatlar ve verimlilik
+- [ ] BÖLÜM 3: Veri Temizleme ve Dönüştürme
+  - 3.1 Temizleme
+    - 3.1.1 Eksik veri tespiti ve doldurma/çıkarma stratejileri
+    - 3.1.2 Yinelenen (duplicate) kayıt tespiti ve aykırı değer (outlier) işleme
+    - 3.1.3 Veri tipi standardizasyonu ve kategori (categorical) tipi
+  - 3.2 Dönüştürme
+    - 3.2.1 apply/map ve vektörize string işlemleri
+    - 3.2.2 Merge/join işlemleri ve çakışan anahtar stratejileri
+    - 3.2.3 Reshape işlemleri (pivot, melt, stack/unstack)
+    - 3.2.4 GroupBy ile toplulaştırma ve çoklu-anahtar gruplama
+- [ ] BÖLÜM 4: Zaman Serisi İşleme
+  - 4.1 Zaman Endeksleme
+    - 4.1.1 DatetimeIndex ve zaman dilimi (timezone) yönetimi
+    - 4.1.2 Yeniden örnekleme (resample) ve frekans dönüşümü
+    - 4.1.3 Kaydırma (shift), fark alma (diff) ve yuvarlanan pencere (rolling window) işlemleri
+  - 4.2 İleri Zaman Serisi Teknikleri
+    - 4.2.1 merge_asof ile zaman-hizalı (point-in-time doğru) birleştirme
+    - 4.2.2 Çoklu zaman serisi hizalama ve veri sızıntısını (leakage) önleme
+- [ ] BÖLÜM 5: Performans
+  - 5.1 Verimlilik
+    - 5.1.1 Vektörizasyon vs döngü performans farkı
+    - 5.1.2 Büyük veri setleri için bellek yönetimi (dtype optimizasyonu, chunking)

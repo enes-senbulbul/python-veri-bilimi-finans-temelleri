@@ -1,0 +1,42 @@
+# İstatistik
+
+## İlerleme
+
+  - 0.1 0.1.1 Temel cebir ve fonksiyon kavramı (lise düzeyi matematik) [T1]
+- [ ] BÖLÜM 1: Betimsel İstatistik ve Olasılık Temelleri
+  - 1.1 Betimsel İstatistik
+    - 1.1.1 Merkezi eğilim ölçüleri (ortalama, medyan, mod)
+    - 1.1.2 Dağılım ölçüleri (varyans, standart sapma, çeyrekler açıklığı)
+    - 1.1.3 Çarpıklık (skewness) ve basıklık (kurtosis)
+  - 1.2 Olasılık Temelleri
+    - 1.2.1 Olasılık aksiyomları, koşullu olasılık ve Bayes teoremi
+    - 1.2.2 Rastgele değişkenler ve olasılık dağılım fonksiyonları
+    - 1.2.3 Yaygın dağılımlar (normal, binom, poisson, t, ki-kare)
+- [ ] BÖLÜM 2: Örnekleme ve Tahmin
+  - 2.1 Örnekleme Teorisi
+    - 2.1.1 Örnekleme dağılımı ve merkezi limit teoremi
+    - 2.1.2 Standart hata ve güven aralığı hesaplama
+  - 2.2 Nokta ve Aralık Tahmini
+    - 2.2.1 Maksimum olabilirlik tahmini (MLE) kavramı
+    - 2.2.2 Bootstrap yöntemleri ile tahmin
+- [ ] BÖLÜM 3: Hipotez Testi
+  - 3.1 Temel Hipotez Testi
+    - 3.1.1 Sıfır/alternatif hipotez, p-değeri ve anlamlılık düzeyi kavramları
+    - 3.1.2 Tek/iki örneklem t-testi
+    - 3.1.3 Tip I / Tip II hata ve istatistiksel güç (power)
+  - 3.2 İleri Testler
+    - 3.2.1 Ki-kare bağımsızlık testi ve ANOVA temelleri
+    - 3.2.2 Parametrik olmayan testler (Mann-Whitney, Wilcoxon)
+- [ ] BÖLÜM 4: Korelasyon ve Regresyon Temelleri
+  - 4.1 İlişki Ölçümü
+    - 4.1.1 Pearson/Spearman korelasyon katsayıları ve yanlış yorumlama riskleri
+    - 4.1.2 Korelasyon-nedensellik ayrımı
+  - 4.2 Basit Regresyon
+    - 4.2.1 En küçük kareler (OLS) mantığı ve varsayımları
+    - 4.2.2 Model uyum iyiliği (R², düzeltilmiş R²)
+- [ ] BÖLÜM 5: ⚠️ KRİTİK TUZAKLAR — İstatistiksel Çıkarımda
+  - 5.1 Yaygın Hatalar
+    - 5.1.1 Çoklu test problemi (multiple comparisons) ve yanlış keşif oranı
+    - 5.1.2 p-hacking ve veri madenciliği (data dredging) riskleri
+    - 5.1.3 Örneklem seçim yanlılığı (selection bias) ve hayatta kalma yanlılığı (survivorship bias)
+    - 5.1.4 Sahte korelasyon (spurious correlation) ve gizli değişken problemi
