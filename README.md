@@ -5,15 +5,16 @@ Devasa bir quant projesi geliştirebilecek yetkinlikte olmam için bayaaaa bir �
 
     > ABD ekonomik ve finansal verilerini resmi API’lardan otomatik olarak toplayan SQL veritabanında tarihsel ve point-in-time olarak saklayan, python ile ekonometrik, istatistiksel ve makine öğrenmesi tabanlı araştırmalar yapan; bulguları sistematik trading/factor strategies’e dönüştürüp backtest eden açık bir quantative research platformu
 
-- Bu repo boyunca gerekli olan şu yazılım dilleri, araçlar, kütüphaneler ve varsa baştan öğreneceğim ve süreç boyunca öğrendiğim şeylerin pratiğini de bol bol yapacağım. 
-    - Muhtemelen aşağıdakilerin hepsini bitiremeyeceğim ama zaten önemli olan bu yolculuk boyunca kendime ne katarsam yanıma kâr
+- Bu repo boyunca öğrenmem gereken yazılım dilleri, araçlar, kütüphaneler ne varsa baştan öğreneceğim.
+- Süreç boyunca öğrendiğim şeylerin pratiğini de bol bol yapacağım. 
+    - Muhtemelen aşağıdakilerin hepsini bitiremeyeceğim ama zaten önemli olan bu yolculuk boyunca kendime ne katarsam yanıma kâr...
 
 
 ## 📊 Genel İlerleme 
 
-| # | Harita | Durum | Başlangıç | Bitiş | Detay |
+| # | Harita | Durum | <center> Başlangıç <br> dd.mm.yyyy| Bitiş | Detay |
 |---|--------|-------|-----------|-------|-------|
-| 1 | Python Programlama Temelleri | ⬜ Başlanmadı | — | — | [Detaylı Harita](01-python/README.md) |
+| 1 | Python Programlama Temelleri | 🟡 Devam ediyor | 28.08.2026 | — | [Detaylı Harita](01-python/README.md) |
 | 2 | Git & Yazılım Mühendisliği Araçları | ⬜ Başlanmadı | — | — | [Detaylı Harita](02-git/README.md) |
 | 3 | Veri Mühendisliği & API Temelleri | ⬜ Başlanmadı | — | — | [Detaylı Harita](03-veri-muhendisligi/README.md) |
 | 4 | SQL & İlişkisel Veritabanları (PostgreSQL) | ⬜ Başlanmadı | — | — | [Detaylı Harita](04-sql/README.md) |
@@ -31,10 +32,11 @@ Devasa bir quant projesi geliştirebilecek yetkinlikte olmam için bayaaaa bir �
 ```
 python-veri-bilimi-finans-temelleri/
 ├── docs/
-│   └── 00_ANA_PLAN.md              ← Orijinal yol haritası (referans, değiştirilmez)
+│   └── ...
+│
 ├── 01-python/
 │   ├── README.md                   ← Bu haritanın alt konu checklist'i
-│   ├── kodlar/                     ← Konuları çalışırken oluşturduğum kod dosyaları vs.                
+│   ├── notlar/                     ← Konuları çalışırken oluşturduğum kod dosyaları vs.                
 │   └── pratikler/                  ← Koduların pratiğini yaparken kalan kodları
 │
 │── 02-git/                         (aynı yapı)
