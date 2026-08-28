@@ -2,7 +2,7 @@
 
 ## İlerleme
 
-- [ ] BÖLÜM 1: Kurulum ve Geliştirme Ortamı
+- [x] BÖLÜM 1: Kurulum ve Geliştirme Ortamı
   - 1.1 Ortam Kurulumu
     - Python yorumlayıcısı kurulumu ve sürüm yönetimi (pyenv/uv)
     - Sanal ortamlar (venv) ve bağımlılık izolasyonu
