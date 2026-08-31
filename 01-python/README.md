@@ -9,7 +9,7 @@
     - Paket yöneticisi (pip/uv) ve requirements.txt / pyproject.toml
     - Kod editörü kurulumu ve temel debugger kullanımı
 
-- [ ] BÖLÜM 2: Temel Sözdizimi ve Veri Tipleri
+- [x] BÖLÜM 2: Temel Sözdizimi ve Veri Tipleri
   - 2.1 Temel Veri Tipleri
     - Sayısal tipler (int, float, complex) ve aritmetik
     - Metin tipi (str) ve temel string metodları
