@@ -22,17 +22,21 @@
     - Küme (set) ve küme işlemleri
     - List/dict/set comprehension
 
-- [ ] BÖLÜM 3: Kontrol Akışı ve Fonksiyonlar
+- [x] BÖLÜM 3: Kontrol Akışı ve Fonksiyonlar
   - 3.1 Kontrol Yapıları
     - Koşullu ifadeler (if/elif/else)
     - Döngüler (for, while) ve döngü kontrol ifadeleri (break/continue)
     - Yineleyiciler (iterators) ve üreteçler (generators)
+    - Yapısal Örüntü Eşleme (Match-Case)
+    - Walrus Operatörü (:=) 
   - 3.2 Fonksiyonlar
     - Fonksiyon tanımı, parametreler ve varsayılan değerler
     - *args, **kwargs ve esnek parametre yapıları
     - Kapsam (scope) kuralları ve closures
     - Lambda ifadeleri ve fonksiyonel araçlar (map/filter/reduce)
+    - Higher Order Functions
     - Dekoratörler (decorators)
+    - DETAYLI - HOF, closure, decorator, parametreli decorator vs.
 
 - [ ] BÖLÜM 4: Nesne Yönelimli Programlama
   - 4.1 OOP Temelleri
