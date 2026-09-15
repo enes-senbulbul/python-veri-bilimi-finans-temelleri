@@ -38,14 +38,16 @@
     - Dekoratörler (decorators)
     - DETAYLI - HOF, closure, decorator, parametreli decorator vs.
 
-- [ ] BÖLÜM 4: Nesne Yönelimli Programlama
+- [x] BÖLÜM 4: Nesne Yönelimli Programlama
   - 4.1 OOP Temelleri
-    - Sınıf (class) tanımı, __init__ ve örneklem
+    - Sınıf (class) tanımı, \_\_init\_\_ ve örneklem
     - Örnek/sınıf/statik metodlar ve öznitelikler
     - Kalıtım (inheritance) ve çok biçimlilik (polymorphism)
-    - Özel metodlar (dunder methods: __str__, __repr__, __eq__)
+    - Özel metodlar (dunder methods: \_\_str\_\_, \_\_repr\_\_, \_\_eq\_\_)
     - Kompozisyon vs kalıtım kararı
     - Dataclasses ve tip ipuçları (type hints) ile veri modelleme
+    - Kapsülleme (Encapsulation) ve @property dekoratörü 
+    - ABC (Abstract Base Classes) ve abc modülü
 
 - [ ] BÖLÜM 5: Hata Yönetimi, Dosya/IO ve Standart Kütüphane
   - 5.1 Hata Yönetimi
