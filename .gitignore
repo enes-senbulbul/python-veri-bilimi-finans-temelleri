@@ -27,5 +27,8 @@ Thumbs.db
 *.db
 *.sqlite3
 
-# Gereksiz lab dosyaları
-*.txt
+# 01-python lab / geçici dosyalar (alt klasörler dahil)
+01-python/notlar/**/*.txt
+01-python/notlar/**/*.json
+01-python/pratikler/**/*.txt
+01-python/pratikler/**/*.json
