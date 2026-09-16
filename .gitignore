@@ -26,3 +26,6 @@ Thumbs.db
 *.parquet
 *.db
 *.sqlite3
+
+# Gereksiz lab dosyaları
+*.txt
