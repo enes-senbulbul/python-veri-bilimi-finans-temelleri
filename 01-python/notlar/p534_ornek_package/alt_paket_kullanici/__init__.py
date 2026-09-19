@@ -1,0 +1,1 @@
+print("[Sistem] -> 'kullanici' alt paketi hazırlandı.")

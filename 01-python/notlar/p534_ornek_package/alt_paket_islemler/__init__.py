@@ -1,0 +1,1 @@
+print("[Sistem] -> 'islemler' alt paketi hazırlandı.")
