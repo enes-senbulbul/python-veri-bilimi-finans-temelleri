@@ -49,7 +49,7 @@
     - Kapsülleme (Encapsulation) ve @property dekoratörü 
     - ABC (Abstract Base Classes) ve abc modülü
 
-- [ ] BÖLÜM 5: Hata Yönetimi, Dosya/IO ve Standart Kütüphane
+- [x] BÖLÜM 5: Hata Yönetimi, Dosya/IO ve Standart Kütüphane
   - 5.1 Hata Yönetimi
     - try/except/finally ve istisna (exception) hiyerarşisi
     - Özel istisna sınıfları tanımlama
@@ -57,11 +57,21 @@
   - 5.2 Dosya ve Veri Formatları
     - Dosya okuma/yazma (metin, CSV, JSON)
     - Yol (path) yönetimi (pathlib)
-  - 5.3 Standart Kütüphane ve Modülerlik
-    - Modül/paket yapısı ve import sistemi
-    - datetime ve zaman damgası işlemleri
-    - collections modülü (defaultdict, namedtuple, Counter)
-    - logging modülü ile günlükleme
+  - 5.3. Modül ve Paket Mimarisi 
+    - Modül/Paket Yapısı ve Import Sistemi
+    - Import, Namespace ve \_\_all\_\_ Kısıtlaması 
+    - Execution Önleme: if \_\_name\_\_ == “\_\_main\_\_”:
+    - Paket Hiyerarşisi (\_\_init\_\_) ve Absolute/Relative Import
+    - Yükleme Hataları: sys.path ve Döngüsel (Circular) Import 
+    - Runtime Dinamik Import (importlib)
+  - 5.4. Standart Kütüphane 
+    - Kritik Sistem Modülleri (os, sys, math)
+    - datetime ve Zaman Damgası İşlemleri
+    - collections Modülü (defaultdict, namedtuple, Counter)
+    - logging Modülü ile Günlükleme  
+    - Düzenli ifadeler (Regex / re modülü)
+    - itertools modülü
+    - random modülü
 
 - [ ] BÖLÜM 6: Test Yazma ve Kod Kalitesi
   - 6.1 Test Yazma
